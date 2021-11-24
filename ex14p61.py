@@ -1,0 +1,5 @@
+A=(set(input("Intoduceti primul sir: ")))
+B=(set(input("Intoduceti al doilea sir: ")))
+print("a) Caracterele care se intalnesc cel putin intr-o multime: ",A.intersection(B))
+print("b) Caracterele care apar in ambele siruri: ",A.union(B))
+print("c) Caracterele care apar in prima multime dar nu apar in a doua: ",A.difference(B))
